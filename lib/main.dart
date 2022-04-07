@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Nosso aplicativo'),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.purpleAccent,
       ),
       body: Center(
         child: Column(
@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.deepPurple,
       ),
       bottomNavigationBar: BottomAppBar(
-        color: Colors.purple,
+        color: Colors.purpleAccent,
         child: Container(
             height: 100,
             child: Padding(
